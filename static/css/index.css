@@ -11,3 +11,47 @@
     line-height: 25px;
     text-decoration: none;
 }
+
+#pfp {
+
+}
+.project-heading{
+    margin:auto;
+}
+.project-image{
+    height: 50px;
+    width: 100%;
+    margin: auto;
+}
+.project-gif{
+
+    height: 2500px;
+    width: 100%;
+
+
+}
+.project-links{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding: 10px;
+}
+.btn{
+
+    margin:auto;
+    padding: 10px;
+    color: yellow;
+}
+.project-info{
+
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+
+}
+
