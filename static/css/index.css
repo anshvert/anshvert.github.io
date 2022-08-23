@@ -46,7 +46,7 @@
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
-  background-color: #f8f8f8;
+  background-color: #303030;
   resize: none;
 
 }
@@ -92,6 +92,7 @@ svg {
   transition: 1s ease-in-out;
 }
 
+
 .but:hover svg {
   stroke-dashoffset: -480;
 }
@@ -100,3 +101,8 @@ a:hover, a:visited, a:link, a:active
 {
     text-decoration: none;
 }
+
+p { color: #adb7bd; font-family: 'Lucida Sans', Arial, sans-serif; font-size: 16px; line-height: 26px; text-indent: 30px; margin: 0; }
+
+h1 { color: #ffffff; font-family: 'Lato', sans-serif; font-size: 54px; font-weight: 300; line-height: 58px; margin: 0 0 58px; }
+
