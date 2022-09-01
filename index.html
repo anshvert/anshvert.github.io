@@ -9,15 +9,14 @@
     <title>Portfolio|Home</title>
 
     <link href = "/static/css/index.css" rel="stylesheet" type="text/css">
-    <script src="/static/js/index.js"></script>
     <link href = "/static/css/background.css" rel="stylesheet" type="text/css">
 
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="shortcut icon"
-    href="https://lh4.googleusercontent.com/cpxI8RDOWt6cuhVZAygZnzLU2ocxjywhbFGr3tMtd-87SQ854912ytJkimWdANy9m0Nzp90=w16383">
+<!--    <link rel="shortcut icon"-->
+<!--    href="https://lh4.googleusercontent.com/cpxI8RDOWt6cuhVZAygZnzLU2ocxjywhbFGr3tMtd-87SQ854912ytJkimWdANy9m0Nzp90=w16383">-->
      <script src="https://kit.fontawesome.com/49a924637f.js" crossorigin="anonymous"></script>
 
 
@@ -25,7 +24,6 @@
 <body>
 
     <div>
-
         <div class="d-flex flex-column justify-content-center w-100 h-100">
 
 	        <div class="d-flex flex-column justify-content-center align-items-center">
@@ -34,17 +32,23 @@
 
     <br>
 
-    <div class = "container-fluid">
+    <div class = "container-fluid" id="Home">
 
-        <div class="row">
+        <div class="row sticky-top">
             <div class="col-sm-12">
                 <div class="card card-body text-white bg-dark mb-3 border-light">
 
-                    <div class="row" id="navbar">
+                    <div class="row" id="header">
 
                         <div class="col-sm-2">
 
-                            <a href="" class="but">  Home </a>
+                            <a href="#Home" class="but" id>  Home </a>
+
+                        </div>
+
+                        <div class="col-sm-2">
+
+                            <a href="#About" class="but"> About </a>
 
                         </div>
 
@@ -54,9 +58,7 @@
 
                         </div>
 
-                        <div class="col-sm-8">
-
-
+                        <div class="col-sm-6">
 
                         </div>
 
@@ -71,8 +73,8 @@
 
             <div class="col-sm-12 ">
 
-                <div class="card card-body text-white bg-dark mb-3 border-light card-size" style=" height: 54rem;">
-
+                <div class="card card-body text-white bg-dark mb-3 border-light card-size img-fluid" style=" height: 54rem;">
+                <img class="card-img-top" src="./static/images/front3.jpg">
                     <div class="threeD">
 
                             Ansh Tyagi
@@ -87,7 +89,7 @@
         </div>
 
 
-        <div class = "row">
+        <div class = "row" id="About">
 
             <div class = "col-sm-2">
                 <div class = "card card-body text-white bg-dark mb-3 border-light" id="profile-wrapper">
@@ -120,12 +122,9 @@
 
                 <div class="card card-body text-white bg-dark mb-3 border-light">
 
-
                     <a href="https://www.linkedin.com/in/ansh00000000/" target="_blank" class="fab fa-linkedin-in fa-2x icons"></a>
                     <a href="https://github.com/anshvert" target="_blank" class="fab fa-github fa-2x icons"></a>
-                    <a href="https://www.instagram.com/an_shvert/" target="_blank" class="fab fa-instagram fa-2x fa-fw icons"></a>
-
-
+                    <a href="https://www.instagram.com/an_shvert/" target="_blank" class="fab fa-instagram fa-2x icons"></a>
 
                 </div>
 
@@ -135,6 +134,8 @@
 
     </div>
 
-
 </body>
+
+    <script src="./index.js"></script>
+
 </html>
