@@ -203,7 +203,7 @@ color: #FF0000;
     object-fit: cover;
 }
 
-h1 { color: #D3D3D3; font-family: 'Lato', sans-serif; font-size: 54px; font-weight: 300; line-height: 58px; margin: 0 0 58px; }
+h1 { color: #D3D3D3; font-family: 'Lato', sans-serif; font-size: 54px; font-weight: 300; line-height: 58px; margin: 0 0 58px; padding: 20px; }
 
 
 p{ color: #D3D3D3; font-family: 'Lucida Sans', Arial, sans-serif; font-size: 17px; line-height: 34px; text-indent: 30px; margin: 0; padding: 20px;}
@@ -258,8 +258,42 @@ section {
 }
 
 #projects{
-    padding-top: 70px;
+    padding-top: 250px;
 
 }
 
+.pfp{
+
+    padding-top: 20px;
+}
+
+
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
+	background-color: #CCCCCC;
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #FFF;
+	background-image: -webkit-linear-gradient(90deg,
+	                                          rgba(0, 0, 0, 1) 0%,
+											  rgba(0, 0, 0, 1) 25%,
+											  transparent 100%,
+											  rgba(0, 0, 0, 1) 75%,
+											  transparent)
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
 
