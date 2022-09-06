@@ -248,7 +248,17 @@ scroll-behavior: smooth !important;
 section {
 
     margin:auto;
+    height: 1080px;
 
+}
+#About {
+
+    padding-top: 250px;
+
+}
+
+#projects{
+    padding-top: 70px;
 
 }
 
