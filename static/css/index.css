@@ -149,6 +149,22 @@ color: #C13584;
 color: #33CC99;
 }
 
+.fa-quora:hover{
+color: #ff003f;
+}
+
+.fa-code:hover{
+color: #ff9100;
+}
+
+.fa-hackerrank:hover{
+color: #00cc00;
+}
+
+.fa-youtube:hover{
+color: #FF0000;
+}
+
 .threeD {
   color: darkgrey;
   white-space: nowrap;
@@ -228,3 +244,12 @@ a:hover { color: #ffffff }
 *{
 scroll-behavior: smooth !important;
 }
+
+section {
+
+    margin:auto;
+
+
+}
+
+
